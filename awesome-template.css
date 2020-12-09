@@ -194,7 +194,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 5rem;
+  padding: 3rem;
 }
 .teams {
   width: 22%;
@@ -712,7 +712,6 @@ textarea {
   }
   .team_members {
     flex-direction: column;
-    padding: 0px;
   }
   .teams {
     width: 100%;
