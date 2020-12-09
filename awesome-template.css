@@ -1,0 +1,810 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-decoration: none;
+  list-style-type: none;
+}
+.banner_image {
+  background: url("image/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+}
+.header_top {
+  text-transform: uppercase;
+}
+.title h1 {
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 102px;
+  font-weight: 900;
+  padding: 2rem;
+  border: 1px dashed white;
+}
+.list-inline {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 22px;
+  width: 30%;
+  height: 50px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.list-inline-item a {
+  color: lightseagreen;
+}
+.header_top {
+  color: lightseagreen !important;
+}
+/*-----------------------------------------navabr--------------------------------------------------*/
+.navbar {
+  text-transform: uppercase;
+}
+.navbar-brand {
+  padding-left: 100px;
+  font-weight: 500;
+  font-size: 32px !important;
+  color: lightseagreen !important;
+}
+.navbar-nav {
+  margin: auto;
+  font-weight: 400;
+  color: #000;
+}
+.nav-item {
+  padding: 0 5px;
+}
+.active {
+  color: lightseagreen !important;
+}
+/*-----------------------------------feature-----------------------------------------------------------------*/
+.feature {
+  background-color: whitesmoke;
+}
+.feature_items {
+  display: flex;
+}
+.section_title h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 40px;
+  padding: 5rem;
+}
+.section_title h1:after,
+.section_title h1:before {
+  content: "";
+  width: 15%;
+  height: 8px;
+  margin: auto;
+  background: lightseagreen;
+  display: block;
+}
+.icons {
+  padding: 2rem;
+  border: 2px solid lightseagreen;
+}
+.items h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.items h3:after {
+  content: "";
+  width: 25%;
+  height: 5px;
+  margin: auto;
+  display: block;
+  background: lightseagreen;
+}
+.feature_dec {
+  font-weight: 300;
+}
+/*--------------------------------------aboutus------------------------------------------------------*/
+.dark_title h1 {
+  width: 50%;
+  margin: auto;
+  color: #000;
+  text-transform: uppercase;
+  border: 1px dashed #000;
+  font-size: 90px;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+.about_text {
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.about_content {
+  display: flex;
+}
+.about_content {
+  margin: 2rem;
+  padding: 2rem;
+}
+.content_1 {
+  width: 50%;
+}
+.content_1 img {
+  width: 100%;
+  height: 250px;
+}
+.content_2 {
+  width: 50%;
+}
+.content_2 h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.p_text {
+  font-weight: 600;
+}
+/*-----------------------------skills------------------------------------------------------------------*/
+.skill {
+  text-align: center;
+  background-color: lavender;
+}
+.circlechart {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+/*------------------------------------team---------------------------------------------------------------*/
+.light_title h1 {
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px dashed #fff;
+  font-size: 90px;
+  font-weight: 900;
+  padding: 0.5rem;
+}
+.team_text {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #fff;
+}
+.team_background {
+  background: url("image/team_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team_members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+}
+.teams {
+  width: 22%;
+}
+.team_img {
+  width: 100%;
+}
+.team_img img {
+  width: 100%;
+  height: 280px;
+}
+.team_body {
+  background-color: lightseagreen;
+  color: #fff;
+  padding: 10px;
+}
+.team_body h5 {
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.team_body p {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+/*------------------------------------fact_area-------------------------------------------------------------------*/
+.fact_area {
+  background-color: lightseagreen;
+}
+.circle {
+  display: flex;
+}
+.fact-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.single-fact i {
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
+.count {
+  color: #fff;
+}
+.single-fact p {
+  color: #fff;
+  text-align: center;
+}
+.feature_items {
+  display: flex;
+}
+/*------------------------------------core_feature--------------------------------------------------------------------*/
+.core_feature {
+  background: url("image/team_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.core_title h1 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 3rem 0;
+  font-size: 52px;
+}
+.core_title h1:after,
+.core_title h1:before {
+  content: "";
+  width: 60%;
+  height: 8px;
+  margin: auto;
+  background: #fff;
+  display: block;
+}
+.core_details {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+.core_icons {
+  text-transform: capitalize;
+}
+/*------------------------------------portfolio---------------------------------------------------------------*/
+.portfolio_list li {
+  display: inline;
+  padding: 0.5rem;
+  border: 1px solid lavender;
+  margin: 1rem;
+}
+.portfolio_list a {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: #000;
+  font-weight: 500;
+}
+.p_active {
+  background-color: lightseagreen;
+}
+.p_active a {
+  color: #fff !important;
+}
+.port_teams .port_team {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.port_teams .port_team_member {
+  width: 24%;
+  height: auto;
+}
+.port_teams .port_team img {
+  width: 100%;
+  height: 200px;
+}
+/*-------------------------------choose plan--------------------------------------------------------------------*/
+.plan {
+  background-color: lavender;
+}
+.plan_title h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 40px;
+  padding: 5rem;
+}
+.plan_title h1:after,
+.plan_title h1:before {
+  content: "";
+  width: 30%;
+  height: 8px;
+  margin: auto;
+  background: lightseagreen;
+  display: block;
+}
+.cards_plans {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plan_details {
+  padding: 4rem;
+  width: 22%;
+  background-color: #fff;
+}
+.plan_details h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.plan_top {
+  padding: 0.5rem;
+  background: lightseagreen;
+}
+.plan_top p {
+  font-size: 20px;
+  color: #fff;
+}
+.plan_top h4 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.plan_top h5 {
+  text-transform: uppercase;
+  color: #fff;
+}
+.plan_color {
+  color: lightseagreen;
+  font-weight: 600;
+}
+.plan_body p {
+  text-transform: capitalize !important;
+}
+.plan_body h6 {
+  text-transform: capitalize !important;
+  display: inline;
+}
+.plan_btn {
+  width: 50%;
+  margin: auto;
+  height: 30px;
+  background: lightseagreen;
+  padding: 5px;
+}
+.plan_btn a {
+  color: #fff;
+  text-transform: uppercase;
+}
+/*----------------------------------clinet------------------------------------------------------------------*/
+.clinet_background {
+  background: url("image/cl_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.figure-img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.caption {
+  color: #fff;
+}
+.caption p {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+/*---------------------------------------clinet_below-----------------------------------------------------------------*/
+.client_below {
+  color: #fff;
+  text-transform: capitalize;
+  background-color: lightseagreen;
+  display: flex;
+}
+.client_below h2 {
+  margin: 0px auto;
+}
+/*---------------------------------------our blog--------------------------------------------------------------*/
+.blog_details {
+  display: flex;
+}
+.blogs_size {
+  display: flex;
+  justify-content: space-around;
+}
+.blog_cards {
+  width: 30%;
+}
+.blog_cards img {
+  width: 100%;
+  height: 300px;
+}
+.blog_cards_body h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.blog_cards_body p {
+  font-weight: 300;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0;
+}
+.blog_btn {
+  padding: 2px;
+  margin: 10px auto;
+  width: 150px;
+  height: 50px;
+  line-height: 40px;
+  border: 2px solid lightseagreen;
+}
+.blog_btn a {
+  padding: 8px;
+  text-transform: uppercase;
+  color: lightseagreen;
+  text-decoration: none !important;
+}
+.blog_cards_2 {
+  background-color: lavender;
+}
+.blog_cards_3 {
+  background-color: lavender;
+}
+/*-----------------------------------------------tweet----------------------------------------------------------------*/
+.twitter {
+  background-color: lightseagreen;
+  padding: 1rem;
+  color: #fff;
+}
+.tweet_details p {
+  margin: 10px 0;
+}
+.tweet_details h5 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.company {
+  text-transform: uppercase;
+  color: lightseagreen;
+  font-weight: 300;
+}
+.link {
+  color: lightseagreen;
+  text-transform: none !important;
+}
+/*---------------------------------------------watch this---------------------------------------------------------*/
+.content {
+  background: url("image/play_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.watch_para {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #fff;
+}
+.play_btn i {
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px lightseagreen;
+}
+/*----------------------------------------contact---------------------------------------------------------------*/
+.contact_para {
+  font-size: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 3rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #000;
+}
+.contact_form input[type="text"],
+.contact_form input[type="email"],
+textarea {
+  color: #000 !important;
+  background: lavender !important;
+}
+.contact_btn {
+  width: 100%;
+  height: 30px;
+  padding: 1.5rem;
+  line-height: 10px;
+  border: 3px solid lavender;
+}
+.contact_btn a {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: lightseagreen;
+  font-size: 18px;
+}
+/*-------------------------getintouch---------------------------------------------------------------------------------*/
+.touch {
+  background-color: lavender;
+}
+.social_icons {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social_details {
+  text-align: center;
+}
+.social_details h3 {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+.social_details h3:before {
+  content: "";
+  height: 3px;
+  width: 60%;
+  margin: 5px auto;
+  background-color: lightseagreen;
+  display: block;
+}
+.social_details p {
+  text-transform: capitalize;
+  font-weight: 300;
+}
+.location {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 2rem;
+}
+.email {
+  background-color: red;
+  color: #fff;
+  padding: 2rem;
+}
+.phone {
+  background-color: yellowgreen;
+  color: #fff;
+  padding: 2.1rem;
+}
+.skype {
+  background-color: green;
+  color: #fff;
+  padding: 2rem;
+}
+.subscribe {
+  margin: 1rem auto;
+  border: 10px solid lightseagreen;
+}
+.subscribe input[type="text"] {
+  width: 100%;
+  padding: 1rem;
+  text-transform: capitalize;
+  text-align: center;
+  border: none;
+}
+.sub_btn {
+  width: 10%;
+  margin: auto;
+  height: 20px;
+  padding: 1rem;
+  line-height: 5px;
+  border: 2px solid lightseagreen !important;
+}
+.sub_btn a {
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: lightseagreen;
+  font-size: 18px;
+}
+.bottom_social {
+  background: url("image/team_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom_icons li {
+  display: inline;
+  padding: 0px 1rem;
+  color: #fff;
+}
+.bottom_icons i {
+  background: rgb(61, 59, 59);
+  padding: 0.8rem;
+}
+/*----------------------------------------------footer-----------------------------------------------------*/
+.footer p {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.arrow {
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  background: lightseagreen;
+  border-radius: 50%;
+}
+.arrow img {
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  margin-top: 10px;
+}
+/*-----------------------------------------media queries----------------------------------------------------*/
+@media (max-width: 560px) {
+  .title h1 {
+    width: 90%;
+    font-size: 40px;
+  }
+  .banner_image {
+    background-position: center;
+    width: 100%;
+    height: 300px;
+  }
+  .list-inline {
+    display: block;
+    font-size: 12px;
+    width: 80%;
+    height: 20px;
+    line-height: 0px;
+  }
+  .navbar-brand {
+    padding-left: 0;
+  }
+  .feature_items,
+  .about_content,
+  .circle,
+  .fact-box,
+  .feature_items,
+  .cards_plans,
+  .client_below,
+  .blogs_size,
+  .social_icons {
+    display: block;
+  }
+  .fact-box {
+    text-align: center !important;
+  }
+  .section_title h1 {
+    text-transform: uppercase;
+    color: black;
+    font-size: 30px;
+    padding: 2rem;
+  }
+  .section_title h1:after,
+  .section_title h1:before {
+    content: "";
+    width: 80%;
+    height: 5px;
+    margin: auto;
+  }
+  .items h3:after {
+    content: "";
+    width: 60%;
+    height: 5px;
+    margin: auto;
+  }
+  .dark_title h1,
+  .light_title h1 {
+    width: 200px !important;
+    font-size: 30px;
+  }
+  .about_content {
+    display: block;
+  }
+  .content_1,
+  .content_2 {
+    width: 100%;
+  }
+  .circlechart {
+    margin: 0.5rem 0px;
+    padding: 1rem 0px;
+  }
+  .team_members {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .teams {
+    width: 100%;
+    padding: 1rem 0rem;
+  }
+  .core_details {
+    display: block;
+  }
+  .core_title h1 {
+    width: 100%;
+    margin: auto;
+    font-size: 30px;
+  }
+  .core_title h1:after,
+  .core_title h1:before {
+    width: 100%;
+    margin: auto;
+  }
+  .core_img {
+    padding: 0.5rem 0px;
+    width: 100%;
+  }
+  .core_img img {
+    width: 100%;
+  }
+  .portfolio_list li {
+    display: block;
+    margin: 2rem auto;
+  }
+  .about_text,
+  .team_text {
+    padding: 1rem;
+    margin: auto;
+  }
+  .port_teams .port_team {
+    display: block;
+  }
+  .port_teams .port_team_member {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0px;
+  }
+  .plan_title h1 {
+    font-size: 25px;
+    padding: 2rem;
+  }
+  .plan_title h1:after,
+  .plan_title h1:before {
+    content: "";
+    width: 100%;
+    height: 8px;
+    margin: auto;
+    background: lightseagreen;
+    display: block;
+  }
+  .plan_details {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 1.5rem 0px;
+  }
+  .client_below h2 {
+    text-align: center;
+    padding: 1rem 0px;
+  }
+  .blog_cards {
+    width: 100%;
+  }
+  .tweet_details h5 {
+    font-size: 18px !important;
+  }
+  .link {
+    text-align: center;
+  }
+  .watch_para {
+    font-size: 18px;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  .contact_para {
+    padding: 1rem;
+    font-size: 16px;
+    width: 100%;
+  }
+  .sub_btn {
+    width: 100%;
+    text-align: center;
+  }
+  .bottom_icons li {
+    display: block;
+    padding: 1rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+}
